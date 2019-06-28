@@ -1,0 +1,28 @@
+.post-card {
+  min-width: 50%
+}
+
+.app {
+  padding: 16px
+}
+
+.searchbar-container {
+  text-align: center
+}
+.searchbar {
+  min-width: 50%;
+  display: table;
+  margin: 0 auto;
+
+  .ui.icon.input {
+    width: 100%
+  }
+}
+
+.content {
+  padding-top: 16px
+}
+
+h1 {
+  text-align: center;
+}
