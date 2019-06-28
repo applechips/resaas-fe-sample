@@ -102,6 +102,7 @@ export default class PostTable extends Component {
           < Loader inverted>Loading...</Loader>
         </Dimmer>
         }
+        
         {
           !isLoading && filteredPosts.map((post) => {
             return (
