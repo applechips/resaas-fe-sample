@@ -16,11 +16,11 @@ export default class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      <div className='searchbar-container'>
         <Input
         icon='search'
         placeholder='Filter posts by keyword'
-        className='searchbar centered'
+        className='searchbar center aligned'
         onChange={debounce(this.handleInputChange, 1000, {
             leading: true,
           })}
