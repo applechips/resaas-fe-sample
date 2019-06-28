@@ -10,7 +10,7 @@ export default class Post extends Component {
       <Card className='post-card centered'>
         <Card.Content>
           <Image className='user-image' floated='left' size='tiny' src='https://via.placeholder.com/120' />
-          <Card.Header>{user.name}</Card.Header>
+          <Card.Header className='user-name-header'>{user.name}</Card.Header>
           <Card.Meta>{user.email} | {user.address.city}</Card.Meta>
           <Card.Description><strong>{post.title}</strong></Card.Description>
           <Card.Description>{post.body}</Card.Description>
